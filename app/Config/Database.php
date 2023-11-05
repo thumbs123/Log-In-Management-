@@ -32,4 +32,5 @@ class Database
     public static function rollbackTransaction(){
         self::$pdo->rollBack();
     }
+
 }
